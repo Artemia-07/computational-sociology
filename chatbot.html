@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindEase: Chatbot</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet">
+    <link href="https://www.behance.net/gallery/168183377/NOHEMI-Typeface-Free-Variable-9-Styles/modules/948598125" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+</head>
+<body>
+    <main class="main">
+        <header>
+            <div>
+                <h1 class="title">Mobile AI Agent</h1>
+                <h4 class="slogan">Where Comfort Meets Clarity</h5>
+            </div>
+        </header>
+
+        <div class="select-main-topic">
+            <a href="about.html"><button class="maintopic">About</button></a>
+            <a href="chatbot.html"><button class="maintopic">Chatbot</button></a>
+            <a href="resource.html"><button class="maintopic">Resource</button></a>
+        </div>
+
+        <div class="guide">
+            <br> <br>
+            <h3 class="subtitle" id="sub2">Chatbot Guide</h3>
+
+            <div class="prelude">
+            <p class="how" id="guide-text">
+                Hello! Welcome to MindEase, a chatbot designed to provide you with a listening ear, 
+                helpful resources, and thoughtful responses on various mental health topics. 
+                This guide will help you understand how to interact with MindEase and get the 
+                most out of your experience.<br>
+                <br> MindEase can assist you in several ways. Here’s a quick overview of what you can ask:
+                <br>- MindEase provides educational information on topics such as anxiety, depression, stress, and more.
+                <br>- Ask MindEase for practical techniques to improve mental well-being, including breathing exercises, grounding techniques, or ways to boost your mood.
+                <br>- MindEase can recommend books, articles, and websites for more in-depth information on mental health topics.
+            </p>
+            <img class="logo" src="./MindEase.webp">
+            </div>
+            
+            <div class="sample-collection">
+                <h3 class="subtitle" id="sub2">Sample Questions</h3>
+                <div class="sample-display">
+                    <div class="sample-display1">
+                        <div class="sample-question" id="sample1">
+                            <figure></figure>
+                            <img class="sample-foto" src="./sample1.png">
+                            <p class="question">"Do you have book recommendations on mindfulness?”</p>
+                        </div>
+                        <div class="sample-question" id="sample2">
+                            <img class="sample-foto" src="./sample2.png">
+                            <p class="question" id="guide-text">“What are some ways to stay positive?”</p>
+                        </div>
+                    </div>
+                    <div class="sample-display2">
+                        <div class="sample-question" id="sample3">
+                            <img class="sample-foto" src="./sample3.png">
+                            <p class="question">“Where can I learn more about self-care?”</p>
+                        </div>
+                        <div class="sample-question" id="sample4">
+                            <img class="sample-foto" src="./sample4.png">
+                            <p class="question">“How can I manage my stress?”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <df-messenger
+            project-id="jovial-backup-441000-n8"
+            agent-id="1d4b3557-d815-4a71-8653-d3e5a3dd78ae"
+            language-code="en"
+            max-query-length="-1">
+            <df-messenger-chat-bubble
+                chat-title="MindEase">
+            </df-messenger-chat-bubble>
+        </df-messenger>
+</body>
+</html>

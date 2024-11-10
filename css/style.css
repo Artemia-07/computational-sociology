@@ -1,0 +1,276 @@
+df-messenger {
+    z-index: 999;
+    position: fixed;
+    --df-messenger-font-color: #000;
+    --df-messenger-font-family: Google Sans;
+    --df-messenger-chat-background: #f3f6fc;
+    --df-messenger-message-user-background: #d3e3fd;
+    --df-messenger-message-bot-background: #fff;
+    bottom: 16px;
+    right: 16px;
+}
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot');
+    src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.eot?#iefix') format('embedded-opentype'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.woff') format('woff'),
+    url('https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+.main{
+    font-family: Gilroy;
+}
+
+p{
+    font-family: 'Nohemi', sans-serif;
+}
+
+.title{
+    text-align: left;
+    text-decoration: solid;
+    margin: 0px;
+}
+
+.slogan{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+
+header{
+    background-color: #07273d;
+    color: white;
+    font-family: 'Nexa', sans-serif;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.select-main-topic{
+    background-color: #5c749b;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.maintopic{
+    background-color: transparent;
+    border: none;
+    margin-left: 5px;
+    margin-right: 30px;
+    font-size: medium;
+    color: white;
+    font-family: 'Nexa', sans-serif;
+    padding: 5px;
+}
+
+.subtitle{
+    text-decoration: underline;
+    margin: 0px;
+    font-size: x-large;
+    font-family: Gilroy;
+}
+
+.t3{
+    display: contents;
+    margin-right: 20px;
+}
+
+.introduction{
+    padding: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.names{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name{
+    margin-right: 25px;
+    margin-left: 40px;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    padding: 20px;
+    flex-flow: column;
+    justify-content: center;
+    background: #fff;
+}
+
+
+.photos{
+    margin-left: 80px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.photo{
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+}
+
+.team{
+    display: flow-root;
+}
+
+.mv{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.mission{
+    width: fit-content;
+    background-color: #4682B4;
+    margin-left: 20px;
+    text-align: right;
+}
+
+.vision{
+    background-color: #A2D5F2;
+    width: 44px;
+    width: fit-content;
+    margin-right: 20px;
+}
+
+.mission-title{
+    margin-right: 20px;
+}
+
+.mission-text{
+    font-family: 'Segoe UI', sans-serif;
+    font-family: cursive;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: 200px;
+}
+
+.vision-title{
+    margin-left: 20px;
+}
+
+.vision-text{
+    font-family: 'Segoe UI', sans-serif;
+    font-family: cursive;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+.process{
+    margin-top: 100px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    box-shadow: #fff;
+}
+
+.process-text{
+    font-family: 'Segoe UI', sans-serif;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.guide{
+    text-align: left;
+    padding: 5px;
+    margin-top: px;
+}
+
+.how{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Gilroy;
+    font-size: large;
+}
+
+.prelude{
+    display: flex;
+    flex-direction: row;
+}
+
+.question{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.sample-collection{
+    margin-top: 50px;
+}
+.sample-display{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    text-align: center;
+    width: 850px;
+    margin-left: 50px;
+}
+.sample-question{
+    margin-bottom: 80px;
+}
+.sample-foto{
+    width: 300px;
+}
+.logo{
+    width: 230px;
+    height: 230px;
+    position: relative;
+    margin-right: 150px;
+    margin-left: 50px;
+}   
+
+#sample1{
+    margin-right: 150px;
+
+}
+
+#sample2{
+    margin-right: 150px;
+}
+
+.sample-display1{
+    width: 500px;
+    height: 500px;
+}
+
+.books{
+    width: 350px;
+    height: 450px;
+}
+
+.resource{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.resource-book{
+    margin-right: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.links{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.link{
+    color: #000;
+    font-style: italic;
+    margin-bottom: 10px;
+}
